@@ -62,18 +62,9 @@ The goal is to showcase proficiency in **file handling**, **string manipulation*
 ## Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/TejasK1604/VRV_Security.git
-
-Here’s the updated **README.md** section with your username included:
-
-```markdown
-## Installation
-
-1. Clone the repository:
-   ```bash
+   
    git clone https://github.com/TejasK1604/log-analysis-script.git
-   ```
+   
 
 2. Navigate to the project directory:
    ```bash
