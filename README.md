@@ -63,4 +63,120 @@ The goal is to showcase proficiency in **file handling**, **string manipulation*
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/log-analysis-script.git
+   git clone https://github.com/TejasK1604/VRV_Security.git
+
+Here’s the updated **README.md** section with your username included:
+
+```markdown
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/TejasK1604/log-analysis-script.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd log-analysis-script
+   ```
+
+3. Ensure Python 3.7+ is installed.
+
+4. Install required libraries:
+   ```bash
+   pip install matplotlib seaborn
+   ```
+
+---
+
+## Usage
+
+1. Place your log file in the same directory as the script (e.g., `sample.log`).
+2. Run the script:
+   ```bash
+   python log_analysis.py
+   ```
+3. View results in the terminal or open the generated `log_analysis_results.csv` for detailed analysis.
+
+---
+
+## Sample Output
+
+### Terminal
+```
+Requests per IP Address:
+IP Address           Request Count
+192.168.1.1          12
+203.0.113.5          10
+...
+
+Most Frequently Accessed Endpoint:
+/home (Accessed 8 times)
+
+Suspicious Activity Detected:
+IP Address           Failed Login Attempts
+192.168.1.100        12
+203.0.113.5          10
+```
+
+### Visualizations
+- **Top IP Addresses by Request Count**: Displays a bar chart with the most active IPs.
+- **Hourly Request Trend**: Plots the trend of requests throughout the day.
+- **HTTP Status Code Distribution**: Displays the frequency of HTTP status codes in the log file.
+- **Top Accessed Endpoints**: Bar chart showing the most accessed endpoints.
+
+### CSV File Structure
+**log_analysis_results.csv**
+
+- **Requests per IP**:
+  ```python
+  IP Address,Request Count
+  192.168.1.1,12
+  203.0.113.5,10
+  ...
+  ```
+
+- **Most Accessed Endpoint**:
+  ```arduino
+  Endpoint,Access Count
+  /home,8
+  ```
+
+- **Suspicious Activity**:
+  ```css
+  IP Address,Failed Login Count
+  192.168.1.100,12
+  203.0.113.5,10
+  ```
+
+- **Hourly Trends**:
+  ```python
+  Hour,Requests
+  0,34
+  1,23
+  ...
+  ```
+
+- **HTTP Status Codes**:
+  ```css
+  Status Code,Frequency
+  200,450
+  404,23
+  401,15
+  ```
+
+---
+
+## Configuration
+
+- **Failed Login Threshold**: 
+  Adjust the threshold for suspicious activity by modifying the `threshold` parameter in the script.
+
+---
+
+## License
+
+This project is licensed under the MIT License. See `LICENSE` for more details.
+```
+
+
